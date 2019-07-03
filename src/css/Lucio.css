@@ -44,7 +44,7 @@ a{
   justify-items: center;
   align-items: flex-start;       
 
-  background:url(../img/background.jpg)  no-repeat center center;
+  background:url(../../ext/img/background.jpg)  no-repeat center center;
   background-size:cover;
   background-attachment:scroll;
   background-color:rgb(39, 39, 39);
