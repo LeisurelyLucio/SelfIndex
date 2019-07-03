@@ -27,7 +27,7 @@ a{
 
   text-align: center;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 15px;
   color: rgba(192, 192, 192, 0.856);
 }
@@ -44,7 +44,7 @@ a{
   justify-items: center;
   align-items: flex-start;       
 
-  background:url(./img/background.jpg)  no-repeat center center;
+  background:url(../img/background.jpg)  no-repeat center center;
   background-size:cover;
   background-attachment:scroll;
   background-color:rgb(39, 39, 39);
