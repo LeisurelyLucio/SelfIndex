@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/Lucio.css">
+
+</head>
+<body>
+   <!-- <div class="topbar"></div> --> 
+
+
+    <div class="container">
+        <div class="icon">
+            <img src="../ext/img/icon.jpg" style="height: 100px">
+        </div>
+        <div class="header">
+            <div>               
+                <p class="head-title">Lucio的个人空间</p>
+                <p class="head-subtitle">最伟大的艺术从不甚嚣尘上，而总是静默无声</p>
+            </div>
+        </div>
+        <div class="guidebar">
+            <span class="guide"><a href="index.html">首页</a></span> 
+            <span class="guide"><a href="article01.html">随笔</a></span> 
+            <span class="guide"><a href="article02.html">课程内容</a></span>
+            <span class="guide"><a href="index.html">作品集</a></span> 
+            <span class="guide"><a href="index.html">关于</a></span>
+        </div>
+
+        <div class="main">
+            <div class="post">
+                <div class="post-title"> &nbsp;个人日志 </div>
+                <div class="post-block"> 
+                    <div class="post-subtitle"> <a href="article02.html"> 02-js初步使用小结 </a> </div>
+                    <div class="post-time"> 2019年7月7日 | 课程/开发感受 </div>
+                    <article class="post-content"> 
+                        <p>本次作业也算是完成了对js的初步运用与掌握。相比于c++等传统语言，js作为脚本语言，还是有着很多优势的。</p>
+                        <p>弱类型的特性以及本身带有的对象化特性更容易利用面向对象特性；同时，在编写js的function时，多注意利用其类似λ表达式的函数式编程特性可以带来很多方便。当然，鉴于之前对于函数式编程接触其实不多，也就导致本次作业很多地方尝试无果退回了原本的过程式编程中去了，之后还需多多改进。
+                        </p>
+                        <p>在目前接触到的js的api中，比较常用、好用的有：</p>
+                        <ul>
+                            <li>...args可以将剩余的函数参数打包到一个对象数组中方便处理；</li>
+                            <li>map函数可以对每个数组成员按顺序调用指定方法，reduce也有如此功能，但二者返回值不同；</li>
+                            <li>利用match函数以及正则表达式，可以将字符串中符合要求的所有子串按序储存到数组中；</li>
+                            <li>yeild声明在生成器函数中有着很好的截停功能，非常适合构造迭代器。</li>
+                        </ul>                                                                     
+                        <p>目前遇到过的容易出现的问题有：</p>
+                        <ul>
+                            <li>利用class关键字创建类模板时，需要用new关键字实例化，同时要注意，在内置方法中调用其属性变量时必须指明this.param，直接写param名会报错；</li>
+                            <li>整数精确储存范围为±2^53，超出时会丢失精度；</li>
+                            <li>实数比较时，使用Number.EPSILON进行比较；</li>
+                            <li>字符串类型使用单引号；</li>
+                            <li>建议使用严格模式，即函数第一行声明 'use strict'。</li>                           
+                        </ul>                                                                                               
+
+                        <p>以上</p>
+                    </article>
+                </div>              
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="bottombar"> <br> © 2019 Lucio's Blog By Lucio. All rights reserved. </div>
+
+
+</body>
+</html>
+    
